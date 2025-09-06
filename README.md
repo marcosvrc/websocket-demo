@@ -76,27 +76,23 @@ websocket-demo/
 
 ```bash
 cd websocket-chat
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
-Acesse [http://localhost:8080](http://localhost:8080) para abrir o chat.
+Acesse [http://localhost:8085](http://localhost:8085) para abrir o chat.
 
 ### Executando websocket-simple
 
 ```bash
 cd websocket-simple
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
-O WebSocket estará disponível em `ws://localhost:8080/ws`.
+O WebSocket estará disponível em `ws://localhost:8083/ws-chat`.
 
-## Testes
+Obs.: Use o Postman para testes conforme imagem abaixo:
 
-Para rodar os testes:
-
-```bash
-./mvnw test
-```
+![Postman executando websocket](https://github.com/marcosvrc/websocket-demo/blob/master/Postman%20-%20Teste%20Websocket.png)
 
 ## Referências
 - [Spring WebSocket](https://spring.io/guides/gs/messaging-stomp-websocket/)
